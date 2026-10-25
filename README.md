@@ -31,12 +31,12 @@ Display the original, lower contrast, and higher contrast images.
 Split the image (boy.jpg) into B, G, R components and display the channels.
 
 ## Program Developed By:
-- **Name:** VENKATANATHAN P R
-- **Register Number:** 212223240173
+- **Name:** DEVASURYA M
+- **Register Number:** 212225230048
 
 ### Ex. No. 01
 
-#### 1. Read the image ('city.jpg') using OpenCV imread() as a grayscale image.
+#### 1. Read the image ('dev.png') using OpenCV imread() as a grayscale image.
 ```python
 import cv2
 import numpy as np
@@ -124,7 +124,7 @@ plt.axis("off")
 plt.show()
 ```
 
-#### 10. Read in the image ('city.jpg').
+#### 10. Read in the image ('dev.png').
 ```python
 img = cv2.imread("city.jpg")
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -170,7 +170,7 @@ plt.axis("off")
 plt.show()
 ```
 
-#### 14. Read the image ('city.jpg').
+#### 14. Read the image ('dev.png').
 ```python
 img = cv2.imread("city.jpg")
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
